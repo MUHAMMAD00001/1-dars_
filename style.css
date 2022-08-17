@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+}
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+.header-page {
+    background: linear-gradient(90deg, #F8FFF7 29.13%, rgba(248, 255, 246, 0.58) 60.02%, rgba(248, 255, 246, 0.1) 98.12%);
+}
+
+.farm-img {
+    width: 152px;
+    height: 33px;
+    margin-top: 3rem;
+}
+
+.nav-items{
+    display: flex;
+ 
+}
+
+.item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #062010;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 3.5rem 0 0 15rem ;
+}
+
+.navbar-page {
+    display: flex;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    background: linear-gradient(94.04deg, #30C917 1.24%, #279A13 98.27%);
+    border-radius: 8px;
+    border: 0px;
+    width: 162px;
+    height: 48px;
+    padding: 0 0 0 5rem;
+    
+}
+
+
+.btnDiv {
+    padding: 2rem 0 0 10rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .item {
+        display: none;
+    }
+    .btnDiv{
+        padding-left: 01.24%    ;
+    }
+    
+}
+
+.header-content h1 { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 119.9%;
+    /* or 86px */
+    
+    
+    color: #062010;
+    margin-top: 20rem;
+    
+
+}
+
+section{
+    padding: 50px;
+}
+
+.span {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 119.9%;
+    color: #30C917;
+
+}
+
+
+.header-content p {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000; 
+    margin-top: 1rem;
+}
+
+.btn-A {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #EF3581;
+    background: #FBE4EE;
+    border: 2px solid #EE3581;
+    border-radius: 8px;
+    width: 177px;
+    height: 56px;
+    padding: 0 0 0 2.5rem;
+
+}
+
+.DivBtn {
+    margin-top: 3rem;
+}
+
+.header-content img {
+    width: 562px;
+    height: 562px;
+    margin-top: 10rem;
+}
+.header-content {
+    display: flex;
+}
+
+.section-video {
+    position: relative;
+    background: url(/images/farm-img.png) no-repeat center  center/cover;
+    width: 900px;
+    height: 581px;
+    margin: auto;
+
+}
+
+.player-img {
+    position: absolute ;
+    top: 200px ;
+    left: 330px;
+
+}                                                                  
+.f{
+    display: flex;
+}
